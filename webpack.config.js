@@ -28,6 +28,6 @@ module.exports = {
   devServer: {
     static: './dist',
     compress: true,
-    port: 8080
+    port: 8081
   }
 };
