@@ -1,7 +1,7 @@
 services:
   app:
-    container_name: app-dev
-    image: app-dev
+    container_name: mvc-todo-dev
+    image: mvc-todo-dev
     build:
       context: .
       target: development
