@@ -17,7 +17,7 @@ In order to setup and work on this project on your own, you will need to:
 3. A live demo of the project can be started by using:  
    `yarn start`
 
-4. Web application can be accessed at http://<host IP>:8081
+4. Web application can be accessed at http://localhost:8081
    
 5. Distribution files can be produced using:  
    `yarn build`
