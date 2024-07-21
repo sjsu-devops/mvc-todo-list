@@ -17,12 +17,14 @@ In order to setup and work on this project on your own, you will need to:
 3. A live demo of the project can be started by using:  
    `yarn start`
 
-4. Distribution files can be produced using:  
+4. Web application can be accessed at http://<host IP>:8081
+   
+5. Distribution files can be produced using:  
    `yarn build`
 
-5. To run dockerized app (See https://dev.to/karanpratapsingh/dockerize-your-react-app-4j2e for reference)
+6. To run dockerized app (See https://dev.to/karanpratapsingh/dockerize-your-react-app-4j2e for reference)
    `docker-compose -f docker-compose.dev.yml up -d`
    Web app can be accessed at http://localhost:9000
 
-6. To stop dockerized app
+7. To stop dockerized app
    `docker-compose -f docker-compose.dev.yml stop`
