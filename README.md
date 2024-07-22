@@ -9,7 +9,7 @@
 In order to setup and work on this project on your own, you will need to:
 
 1. Clone this project:  
-   `git clone https://github.com/hcheung24/mvc-todo-list.git`
+   `git clone https://github.com/sjsu-devops/mvc-todo-list.git`
 
 2. Once you have cloned this project, you can install the required dependencies by using:  
    `yarn install`
@@ -23,8 +23,8 @@ In order to setup and work on this project on your own, you will need to:
    `yarn build`
 
 6. To run dockerized app (See https://dev.to/karanpratapsingh/dockerize-your-react-app-4j2e for reference)
-   `docker-compose -f docker-compose.dev.yml up -d`
+   `docker compose -f docker-compose.dev.yml up -d`
    Web app can be accessed at http://localhost:9000
 
 7. To stop dockerized app
-   `docker-compose -f docker-compose.dev.yml stop`
+   `docker compose -f docker-compose.dev.yml stop`
