@@ -8,4 +8,4 @@ services:
     volumes:
       - ./src:/app/src
     ports:
-      - 9000:9000
+      - 9000:8081
